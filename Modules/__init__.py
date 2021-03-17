@@ -6,12 +6,10 @@ from .Functions import *
 from .GettersAndSetters import *
 from .IfStatements import *
 from .Inheritance import *
-from .Itterable import *
 from .KeyboardInputs import *
 from .List import *
 from .ListOperations import *
 from .Modules import *
-from .MultipleInheritance import *
 from .MultipleReturn import *
 from .NestedLoops import *
 from .RandomNumbers import *

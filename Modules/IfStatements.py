@@ -6,6 +6,7 @@ def ask_user_for_number_0_to_10():
         print("invalid number.")
     else: 
         print(number)
+    
 
 # ask user for a password
 def ask_user_for_password():

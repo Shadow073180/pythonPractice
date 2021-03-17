@@ -1,5 +1,6 @@
 #!/bin/python 3.8.7
 import random
+import time
 from Modules import *
 
 
@@ -83,12 +84,12 @@ create_100_randoms_get_freq_of_each()
 print("---------------------SECTION9---------------------------")
 
 get_phone_number_from_user()
-get_favorite_programming_language_from_user()
+# get_favorite_programming_language_from_user()
 
 print("--------------------SECTION10----------------------------")
 
 ask_user_for_number_0_to_10()
-ask_user_for_password()
+# ask_user_for_password()
 
 print("--------------------SECTION11----------------------------")
 
@@ -114,11 +115,11 @@ can_a_loop_be_used_in_a_while_loop()
 
 print("---------------------SECTION13---------------------------")
 
-my_list = [1,2,3,4]
+my_list = [1,2,3,4,5]
 sum_list(my_list)
 
-use_function_inside_a_function(sum_list)
-function_calls_itself(42)
+use_function_inside_a_function()
+function_calls_itself(20)
 can_a_function_variable_be_used_in_another_function()
 
 print("--------------------SECTION14----------------------------")
@@ -137,11 +138,105 @@ print("--------------------SECTION16----------------------------")
 "TODO"
 
 print("--------------------SECTION17----------------------------")
-li = [45,6,90,23,44,2,7,22]
 
-create_list_of_1000_numbers()
-get_largest_and_smallest_number_from_list(li)
+num = create_list_of_1000_numbers()
+get_largest_and_smallest_number_from_list(num)
 create_an_even_and_odd_list()
 
 print("-------------------SECTION18-----------------------------")
 
+countries = create_dictionay_of_coutries()
+print_keys_of_dictionay(countries)
+print_values_of_dictionary(countries)
+
+print("-------------------SECTION19-----------------------------")
+
+read_file_and_number_every_line("test.txt")
+what_happens_when_file_doesnt_exist("../nothing.txt")
+
+print("-------------------SECTION20-----------------------------")
+
+write_to_file("test.txt","Take it easy!")
+write_to_file("another.txt",open("test.txt"))
+
+print("-------------------SECTION21-----------------------------")
+
+output_ever_position_of_a_3_by_3_tic_tac_toe_board()
+
+players = ["John", "Marissa", "Pete", "Dayton"]
+player_matchup(players)
+
+answer_steps_taken()
+
+print("-------------------SECTION22-----------------------------")
+
+people = ["John", "Marissa", "Pete", "Dayton"]
+take_a_slice(people)
+
+slice_world()
+
+print("-------------------SECTION23-----------------------------")
+
+num = 40
+reduce_variable(num)
+
+has_local_variable()
+
+print("-------------------SECTION24-----------------------------")
+
+get_date_year_month_day()
+
+print("-------------------SECTION25-----------------------------")
+
+print("yes")
+print("yes if it is a file not found exception")
+print("Where there isn't a condition that could throw and exception.")
+
+print("-------------------SECTION26-----------------------------")
+
+print("yes")
+print("yes that is what a class is used for.")
+print("no")
+auto = Auto("red","automatic")
+auto.open_door()
+
+print("-------------------SECTION27-----------------------------")
+
+person1 = Person(40,"male", "David")
+
+print(person1.age)
+person1.set_age(33)
+person1.get_age()
+
+print("-------------------SECTION28-----------------------------")
+
+math_sin(35)
+
+print("-------------------SECTION29-----------------------------")
+
+corvettte = Car("sports",0)
+corvettte.open_door()
+corvettte.start_engine()
+
+print("-------------------SECTION30-----------------------------")
+
+print("yes")
+Dog.bark()
+
+print("It can be indication of poor design.")
+
+print("-------------------SECTION31-----------------------------")
+
+print("An iteratable is a Python object that can be used as a sequence. You can go to the next item of the sequence using the next() method.")
+print("Lists, Strings, Dictionaries, and Sets")
+
+print("-------------------SECTION32-----------------------------")
+
+print("A class method is a method shared among all objects")
+print("Class method the parameter is always itself, in static methods the method doesn't even know about the class.")
+
+print("-------------------SECTION33-----------------------------")
+
+print("Not all languages support multi-inheritance.")
+print("It increases complexity and makes it harder to be reuseable")
+print("No")

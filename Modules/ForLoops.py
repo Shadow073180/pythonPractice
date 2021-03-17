@@ -17,14 +17,14 @@ def create_loop_from_0_to_10():
 # print numbers 1 to 10 backwards using a for loop
 def print_numbers_one_to_ten_backwards_with_loop(collection):
     count = len(collection) - 1
-    while count >= 0:
+    while count > 0:
         for num in collection:
             print(collection[count])
-            count - 1
+            count -= 1
 
 # count all even number from 0 to 10
 def even_numbers_from_0_to_10():
-    for number in range(1,11):
+    for number in range(0,11):
         if number % 2 == 0:
             print(number)
 
