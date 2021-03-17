@@ -1,5 +1,5 @@
 # pythonPractice
 
 ## To Run Program
-> python python-practice.py
+> python3 python-practice.py
 
