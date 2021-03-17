@@ -1,7 +1,12 @@
 
 
-# Given a list with pairs, sort on the first element x = [ (3,6),(4,7),(5,9),(8,4),(3,1)]
-"TODO"
+# Given a list with pairs, sort on the first element.
+def sort_list_with_pairs_on_first_element(collection):
+    collection.sort(key=lambda x:x[0])
+    print(collection)
+
 
 # Now sort on the second element
-"TODO"
+def sort_list_with_pairs_on_second_element(collection):
+    collection.sort(key=lambda x: x[1])
+    print(collection)

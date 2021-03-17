@@ -6,9 +6,6 @@ def create_list_of_1000_numbers():
     for x in range(0,1001):
         number = random.randint(0,100)
         thousand_list.append(number)
-
-    for number in thousand_list:
-        print(number)
     return thousand_list
 
 # get the largest and  smallest number from a list

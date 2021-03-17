@@ -104,7 +104,7 @@ sum_the_numbers_from_100_to_200()
 
 print("---------------------SECTION12---------------------------")
 
-# print items of list using while loop
+
 clist = ["Canada","USA","Mexico"]
 output_items_in_list_with_while_loop(clist)
 
@@ -133,9 +133,9 @@ add_numbers_12_18_and_4_to_list(nums)
 change_second_item_to_3(nums)
 
 print("--------------------SECTION16----------------------------")
-
-"TODO"
-"TODO"
+col = [ (3,6),(4,7),(5,9),(8,4),(3,1)]
+sort_list_with_pairs_on_first_element(col)
+sort_list_with_pairs_on_second_element(col)
 
 print("--------------------SECTION17----------------------------")
 
