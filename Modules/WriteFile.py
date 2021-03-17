@@ -2,10 +2,10 @@
 def write_to_file(filename,saying):
     try:
         f = open(filename, "a")
-        f.write(saying)
+        f.write(f"\n{saying}")
         f.close()
     except:
-        print("Exception has occured.")
+        print("Exception has occured.\n")
 
 
 

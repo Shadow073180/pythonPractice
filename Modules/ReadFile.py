@@ -6,7 +6,7 @@ def read_file_and_number_every_line(filename):
             lines = reader.readlines()
             counter = 1
             for line in  lines:
-                print(counter,line)
+                print(f"{counter},{line}")
                 counter += 1
         reader.close()
     except:
@@ -19,8 +19,8 @@ def what_happens_when_file_doesnt_exist(filename):
             lines = reader.readlines()
             counter = 1
             for line in  lines:
-                print(counter,line)
+                print(f"{counter},{line}")
                 counter += 1
         reader.close()
     except:
-        print("Exception has occured")
+        print("Exception has occured\n")

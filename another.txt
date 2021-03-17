@@ -1,0 +1,9 @@
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
+
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
+<_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
